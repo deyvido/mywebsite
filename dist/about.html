@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mai Guebsait</title>
+</head>
+<body>
+    <h1>Abaut ... necesitamos einstalar npm node package manager se necesita node js
+        1.
+        npm --version para ver la version de node js
+        2.
+        npm init -y     // para inicializar todos los paquetes de json   -y  para no tener que responder preguntas
+        3.
+        npm i gh-pages     // instalamos, se muestra en el package.json como dependencia   
+        4.
+        anadir la la linea homepage en package.json
+            "license": "ISC",
+            "homepage": "https://github.com/deyvido/mywebsite",
+        5. 
+        crear script para deploy, cambiar la linea
+            "test": "echo \"Error: no test specified\" && exit 1"
+        por "deploy": "gh-pages -d dist"       //donde -d es de directorios y 'dist' es el folder para deploy
+
+        6. 
+        creamos en nuestro github un repositorio 
+        6. creamos en la raiz un archivo ''.gitignore' para excluir archivos q no queremos q aparezcan como 'node_modules'
+            en el archivo excribimos:
+                node_modules    guardamos y cerramos
+        7. install git
+        7. en la terminal del node js     
+            git init      crea un archivo oculto .git
+            git add .      entonces anade todo 
+            ggit push -u origin masterit commit -m 'Initial commit'   
+        holaa
+
+
+    </h1>
+</body>
+</html>
